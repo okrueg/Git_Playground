@@ -11,7 +11,7 @@ def change_background_color():
     window.config(bg=hex_color)
 
 window = tk.Tk()
-window.title("color branch")
+window.title("Color generator")
 window.geometry("500x500")
 
 click_button = tk.Button(
